@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv{
+    background-color: #ffeedf;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Space Grotesk';
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid;
+    color: #145434;
+
+}
+.header h1{
+        font-weight: bold;
+}
+
+.dataBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: #145434;
+   color: #ffeedf;
+   height: 220px;
+   width: 350px;
+   position: relative;
+}
+.mangoText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 50%;
+}
+.mangoTextP{
+    border-top: 1px solid #ffeedf;
+    padding-top: 0.5rem;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #145434 solid 2px;
+    color: #145434;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color:#ffeedf;
+    position: absolute;
+    top:-1rem;
+    left: -1rem;
+    font-size: 1.3rem;
+}
+.detailsButton{
+    background-color: #ffeedf;
+    border: 2px solid #145434;
+    color: #145434;
+    width: 50%;
+    height: 2.5rem;
+    position: absolute;
+    bottom:-1rem;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detailsButton h5{
+  width: 80%;
+  text-align: center;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.dataFirst,.dataSecond{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    gap:3rem;
+}
